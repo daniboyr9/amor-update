@@ -1,0 +1,63 @@
+$color_1: antiquewhite;
+$font-family_1: Apple Chancery, cursive;
+$background-color_1: black;
+
+.principal {
+
+    background-image: url('./teste.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: $background-color_1;
+
+    .nvs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 95px;
+    }
+
+    #te-amo {
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+
+    h1 {
+        color: $color_1;
+    }
+
+    h2 {
+        color: $color_1;
+        margin: 0;
+        font-family: $font-family_1;
+    }
+
+    h3 {
+        color: $color_1;
+    }
+
+    #feliz {
+        margin-top: 60px;
+        margin-bottom: 0;
+    }
+
+    .nvs2 {
+        margin-bottom: 60px;
+        margin-top: 0;
+        font-size: 35px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #hp {
+        margin-bottom: 0;
+    }
+
+}

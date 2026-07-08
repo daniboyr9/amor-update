@@ -1,0 +1,37 @@
+$color_1: white;
+$font-family_1: Optima, sans-serif;
+$background-color_1: black;
+
+.principal {
+
+    height: 100%;
+    background-image: url('./james.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: $background-color_1;
+
+    h1 {
+        color: $color_1;
+        font-size: 25px;
+        font-family: $font-family_1;
+    }
+
+    #te-amo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h2 {
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
